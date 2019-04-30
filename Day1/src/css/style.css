@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+body{
+  background:#f9f7f7;
+}
+.wrap{
+  margin-top: 50px;
+  padding:10px;
+  padding-top:20px;
+  padding-bottom:100px;
+  border-bottom:1px solid #cecece;
+}
+.header{
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  height: 30px;
+  background:#009987;
+  padding:10px;
+  z-index: 1;
+}
+.header a{
+  color: #353535;
+}
+.btn_area a{
+  display: block;
+  overflow:hidden;
+  float:left;
+  color:white;
+}
+.btn_area{
+  position:absolute;
+  top:5px;
+  right:2px;
+}
+.btn_area .login{
+  float:left;
+  display: inline-block;
+  padding:5px 15px;
+  border:1px solid white;
+  margin-right:10px;
+}
+.btn_area .alram{
+  float:left;
+  line-height: 30px;
+  margin-right:10px;
+}
+.btn_area img{
+  float:left;
+  width:30px;
+  height:30px;
+}
+
+.layer{
+  position:absolute;
+  top:40px;
+  right:2px;
+  width:300px;
+  height:140px;
+  border:1px solid #e5e5e5;
+}
+.layer a{
+  display: block;
+}
+.layer .info{
+  padding:20px;
+  background-color:white;
+  border-bottom:1px solid #e5e5e5;
+}
+.layer .info .logout{
+  display: inline-block;
+  border:1px solid #cecece;
+  padding:0 5px;
+}
+.layer .info .txt{
+  color:#cecece;
+}
+.layer .reset_btn{
+  width:100%;
+  height:60px;
+  display: inline-block;
+  background-color: #f9f7f7;
+  border-top:#e5e5e5;
+  text-align: center;
+  line-height: 60px;
+  border-bottom:1px solid #e5e5e5;
+}
+.content_area{
+  clear:both;
+  width:1000px;
+  margin:0 auto;
+
+}
+.content_area a{
+  display: block;
+}
+
+.content_area li{
+  position:relative;
+  background-color:white;
+  border-bottom:1px solid #e4e4e4;
+}
+.content{
+  overflow:hidden;
+  padding:15px;
+}
+.content .detail_content{
+  color:black;
+}
+.content .title{
+  color:#1dd6c0;
+}
+.content .time{
+  color:#e4e4e4;
+}
+.content img{
+  position: absolute;
+  width:60px;
+  height: 60px;
+  margin-right:10px;
+
+}
+.content .detail_content{
+  margin-left: 70px;
+}
+.btn_close{
+  position: absolute;
+  top:15px;
+  right:15px;
+}
+.btn_close a{
+  display:inline;
+}
+.footer{
+  padding:10px;
+  margin:30px 0;
+  clear:both;
+  color:#cecece;
+}
+.footer a{
+  color:#cecece;
+}
+.footer ul{
+  overflow:hidden;
+}
+.footer li{
+  float:left;
+  margin-top:10px;
+}
+.bar{
+  display:inline-block;
+  margin:0 5px;
+}
